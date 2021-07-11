@@ -1,0 +1,456 @@
+.testimonial-section{
+    padding: 100px 0px;
+   
+}
+.testimonials-quote img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .testimonials-quote {
+    width: 50px;
+    height: 50px;
+  }
+  .testimonial-content h3 {
+	color: #1473e7;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.testimonial-content p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #484848;
+	margin-bottom: 20px;
+}
+/*animation style*/
+
+// @keyframes drop {
+//   0% {
+//     transform: translate(100%, -50%);
+//   }
+//   100% {
+//     transform: translate(50%, -50%);
+//   }
+// } 
+// @keyframes sticky {
+//   0% {
+//     opacity: 0;
+//     margin-top: -120px;
+//   }
+//   50% {
+//     opacity: 0;
+//     margin-top: -60px;
+//   }
+//   100% {
+//     opacity: 1;
+//     margin-top: 0;
+//   }
+// }
+// @keyframes reval {
+//   0% {
+//     opacity: 0;
+//     bottom: -20px;
+//   }
+//   50% {
+//     opacity: 0.5;
+//     bottom: -10px;
+//   }
+//   100% {
+//     opacity: 1;
+//     bottom: 0px;
+//   }
+// }
+// @keyframes gbg {
+//   0% {
+//     opacity: 0.6;
+//     background-image: -ms-linear-gradient(0deg, #34b5bf 0%, #210c59 100%);
+//   }
+//   20% {
+//     opacity: 0.7;
+//     background-image: -ms-linear-gradient(0deg, #34b5bf 0%, #210c59 100%);
+//   }
+//   40% {
+//     opacity: 0.8;
+//     background-image: -ms-linear-gradient(0deg, #34b5bf 0%, #210c59 100%);
+//   }
+//   60% {
+//     opacity: 0.9;
+//     background-image: -ms-linear-gradient(0deg, #34b5bf 0%, #210c59 100%);
+//   }
+//   80% {
+//     opacity: 1;
+//     background-image: -ms-linear-gradient(0deg, #34b5bf 0%, #210c59 100%);
+//   }
+//   100% {
+//     opacity: 1;
+//     background-image: -ms-linear-gradient(0deg, #34b5bf 0%, #210c59 100%);
+//   }
+// }
+// @keyframes playVideo {
+//   0% {
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+//   }
+//   50% {
+//     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+//   }
+//   100% {
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+//   }
+// }
+// @keyframes waveBtn {
+//   0% {
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+//   }
+//   50% {
+//     box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
+//   }
+//   100% {
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+//   }
+// }
+// @keyframes fadewave {
+//   0% {
+//     box-shadow: 0 0 0 0 #961d86;
+//   }
+//   50% {
+//     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+//   }
+//   100% {
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+//   }
+// }
+// @keyframes waveBtn2 {
+//   0% {
+//     width: 100px;
+//     height: 100px;
+//   }
+//   50% {
+//     width: 110px;
+//     height: 110px;
+//   }
+//   100% {
+//     width: 120px;
+//     height: 120px;
+//   }
+// }
+// @keyframes pandulam {
+//   0% {
+//     transform: rotate(55deg);
+//   }
+//   100% {
+//     transform: rotate(-5deg);
+//   }
+// }
+// @keyframes fadewave2 {
+//   0% {
+//     box-shadow: 0 0 0 0 rgba(0, 131, 104, 0.8);
+//   }
+//   50% {
+//     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+//   }
+//   100% {
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+//   }
+// }
+// @keyframes dimond {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
+// @keyframes gorotate {
+//   0% {
+//     transform: translate(400px, -40px) rotate(0deg);
+//   }
+//   100% {
+//     transform: translate(400px, -40px) rotate(360deg);
+//   }
+// }
+// @keyframes bounce {
+//   0%, 100% {
+//     transform: scale(0);
+//     -webkit-transform: scale(0);
+//   }
+//   50% {
+//     transform: scale(1);
+//     -webkit-transform: scale(1);
+//   }
+// }
+// @keyframes halfBounce {
+//   0%, 100% {
+//     transform: scale(0.5);
+//   }
+//   50% {
+//     transform: scale(1);
+//   }
+// }
+// @keyframes movebounce {
+//   0% {
+//     transform: translateY(0px);
+//   }
+//   50% {
+//     transform: translateY(20px);
+//   }
+//   100% {
+//     transform: translateY(0px);
+//   }
+// }
+// @keyframes bounceUp {
+//   0% {
+//     transform: translateY(0px);
+//   }
+//   50% {
+//     transform: translateY(40px);
+//   }
+//   100% {
+//     transform: translateY(0px);
+//   }
+// }
+// @keyframes goaway {
+//   0% {
+//     transform: translate3d(0, 0, 0);
+//     opacity: 0;
+//   }
+//   50% {
+//     transform: translate3d(110px, -20px, -640px);
+//     opacity: 1;
+//   }
+//   100% {
+//     transform: translate3d(0, 0, 0);
+//     opacity: 0;
+//   }
+// }
+// @keyframes moveleftbounce {
+//   0% {
+//     transform: translateX(0px);
+//   }
+//   50% {
+//     transform: translateX(-40px);
+//   }
+//   100% {
+//     transform: translateX(0px);
+//   }
+// }
+// @keyframes moverightbounce {
+//   0% {
+//     margin-left: 0px;
+//   }
+//   50% {
+//     margin-left: 30px;
+//   }
+//   100% {
+//     margin-left: 0px;
+//   }
+// }
+// .rotateme {
+//   animation-name: rotateme;
+//   animation-duration: 20s;
+//   animation-iteration-count: infinite;
+//   animation-timing-function: linear;
+// }
+// @keyframes guraguri {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+// @keyframes rotate3d {
+//   0% {
+//     transform: rotateY(0deg);
+//   }
+//   100% {
+//     transform: rotateY(360deg);
+//   }
+// }
+// @keyframes move_wave {
+//   0% {
+//     transform: translateX(0) translateZ(0) scaleY(1);
+//   }
+//   50% {
+//     transform: translateX(-25%) translateZ(0) scaleY(0.55);
+//   }
+//   100% {
+//     transform: translateX(-50%) translateZ(0) scaleY(1);
+//   }
+// }
+// @keyframes skycloud {
+//   from {
+//     left: -5%;
+//   }
+//   to {
+//     left: 100%;
+//   }
+// }
+/* ----------------------------------
+    Testimonial Section - Styles
+ ------------------------------------ */
+
+
+.testimonial-section .client-faces span {
+	overflow: hidden;
+    width: 100px;
+    height: 100px;
+
+    
+}
+// .testimonial-section .client-faces span.cf1 {
+// 	left: 342px;
+// 	top: 30%;
+// 	animation: halfBounce 7s infinite;
+// }
+.testimonial-section .client-faces span.cf1 {
+    position: absolute;
+    right: 29%;
+    content: "";
+    bottom: -30%;
+    animation: halfBounce 7s infinite;
+  }
+  .testimonial-section .client-faces span.cf2 {
+	position: absolute;
+    content: "";
+	right: 29%;
+	top: -56px;
+	-webkit-animation: halfBounce 5s infinite;
+	/* animation: halfBounce 5s infinite; */
+	-webkit-animation-delay: 0.5s;
+	/* animation-delay: 0.5s; */
+	
+}
+
+.testimonial-section .client-faces span.cf3 {
+	position: absolute;
+	content: "";
+	left: 30%;
+	top: 0%;
+	-webkit-animation: halfBounce 6s infinite;
+	animation: halfBounce 6s infinite;
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+.testimonial-section .client-faces span.cf4 {
+	position: absolute;
+	content: "";
+	bottom: 25%;
+	left: 30%;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+	-webkit-animation: halfBounce 6s infinite;
+	animation: halfBounce 6s infinite;
+}
+
+
+.testimonial-section .client-faces span.cf6 {
+	position: absolute;
+    content: "";
+	right: 25%;
+	content: "";
+	top: 33%;
+}
+.single-testimonial-item {
+	margin-top: 40px;
+	border-radius: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	background-color: #FFF;
+	box-shadow: 0px 5px 20px 0px rgba(102, 153, 255, 0.1);
+}
+.single-testimonial-item .client-img {
+	left: 50%;
+	z-index: 1;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	line-height: 80px;
+	border-radius: 50%;
+	position: relative;
+	background-color: #FFF;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 5px 20px 0px rgba(102, 153, 255, 0.1);
+}
+.single-testimonial-item .client-img {
+	left: 50%;
+	z-index: 1;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	line-height: 80px;
+	border-radius: 50%;
+	position: relative;
+	background-color: #FFF;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 5px 20px 0px rgba(102, 153, 255, 0.1);
+}
+.single-testimonial-item .client-img img {
+	width: 100%;
+	height: 100%;
+}
+.single-testimonial-item .client-info {
+	margin-bottom: 20px;
+}
+.single-testimonial-item .client-info span {
+	font-weight: 500;
+}
+.slick-dots li {
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+  display: inline-block;
+}
+.slick-dots {
+	top: 0px;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-size: 16px;
+	list-style: none;
+	position: relative;
+	text-align: center;
+	margin-top: 60px;
+}
+.testimonial-section .slick-dots {
+	margin-top: 30px;
+}
+.testimonial-section .slick-dots li {
+	width: auto;
+	height: auto;
+	margin: 0 5px;
+	display: inline-block;
+}
+.testimonial-section .slick-dots li button {
+	content: "";
+	width: 10px;
+	height: 10px;
+	transition: 0.3s;
+	line-height: 10px;
+	position: relative;
+	background: #f3e9fc;
+	border-radius: 30px;
+}
+.testimonial-section .slick-dots li.slick-active button {
+	width: 40px;
+	background-color: #8624e1;
+}
+.slick-dots {
+  top: 0px;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.slick-dots li button::before {
+  display: none;
+}
+
+  
