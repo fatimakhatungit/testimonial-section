@@ -1,7 +1,8 @@
-.testimonial-section{
-    padding: 100px 0px;
-   
-}
+.testimonial-section {
+	padding: 100px 0px;
+	position: relative;
+	overflow: hidden;
+}  
 .testimonials-quote img {
     max-width: 100%;
     width: 100%;
@@ -295,7 +296,7 @@
    
 }
 .testimonial-section .client-faces span img {
-    width: 70%;
+	width: 100%;
 }
 .testimonial-section .client-faces span.shape-style-one img {
 	width: 150px; 
@@ -309,25 +310,25 @@
 	position: absolute;
 	left: 33%;
 	content: "";
-	bottom: -17%;
+	bottom: -1%;
 	-webkit-animation: halfBounce 7s infinite;
 	animation: halfBounce 7s infinite;
 }
 .testimonial-section .client-faces span.cf2 {
 	position: absolute;
 	content: "";
-	left: 34%;
-	top: 18%;
+	left: 32%;
+	top: 15%;
 	-webkit-animation: halfBounce 5s infinite;
-	 animation: halfBounce 5s infinite; 
+	animation: halfBounce 5s infinite;
 	-webkit-animation-delay: 0.5s;
-	 animation-delay: 0.5s; 
+	animation-delay: 0.5s;
 }
 .testimonial-section .client-faces span.cf3 {
 	position: absolute;
 	content: "";
-	left: 25%;
-	top: 32%;
+	left: 24%;
+	top: 27%;
 	-webkit-animation: halfBounce 6s infinite;
 	animation: halfBounce 6s infinite;
 	-webkit-animation-delay: 0.4s;
@@ -336,7 +337,7 @@
 .testimonial-section .client-faces span.cf4 {
 	position: absolute;
 	content: "";
-	top: 60%;
+	top: 54%;
 	left: 21%;
 	-webkit-animation-delay: 0.2s;
 	animation-delay: 0.2s;
@@ -346,7 +347,7 @@
 .testimonial-section .client-faces span.cf5 {
 	position: absolute;
 	content: "";
-	bottom: -2%;
+	bottom: 7%;
 	left: 25%;
 	-webkit-animation-delay: 0.2s;
 	animation-delay: 0.2s;
@@ -359,7 +360,7 @@
 	content: "";
 	left: 30%;
 	content: "";
-	bottom: 15%;
+	bottom: 23%;
 }
 .single-testimonial-item {
 	margin-top: 40px;
