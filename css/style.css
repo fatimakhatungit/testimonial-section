@@ -880,7 +880,7 @@ label {
 }
 
 /* ----------------------------------
-    Testimonial Section - Styles
+    Testimonial Section 
  ------------------------------------ */
 .testimonial-section .client-faces span {
   overflow: hidden;
@@ -953,6 +953,11 @@ label {
   left: 30%;
   content: "";
   bottom: 27%;
+}
+
+.testimonials-footer-content {
+  position: relative;
+  margin-left: 2px;
 }
 
 .testimonials-footer-content h4 {

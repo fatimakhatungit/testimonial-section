@@ -199,6 +199,9 @@ label {
   background-color: #2E2E2E;
 }
 
+/* ----------------------------------
+    Testimonial Section 
+ ------------------------------------ */
 .testimonial-section {
   padding: 100px 0px;
   position: relative;
@@ -879,9 +882,6 @@ label {
   }
 }
 
-/* ----------------------------------
-    Testimonial Section - Styles
- ------------------------------------ */
 .testimonial-section .client-faces span {
   overflow: hidden;
 }
@@ -953,6 +953,11 @@ label {
   left: 30%;
   content: "";
   bottom: 27%;
+}
+
+.testimonials-footer-content {
+  position: relative;
+  margin-left: 2px;
 }
 
 .testimonials-footer-content h4 {

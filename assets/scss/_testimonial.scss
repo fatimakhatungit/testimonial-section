@@ -1,3 +1,6 @@
+/* ----------------------------------
+    Testimonial Section 
+ ------------------------------------ */
 .testimonial-section {
 	padding: 100px 0px;
 	position: relative;
@@ -287,9 +290,7 @@
     left: 100%;
   }
 }
-/* ----------------------------------
-    Testimonial Section - Styles
- ------------------------------------ */
+
 
 
 .testimonial-section .client-faces span {
@@ -302,11 +303,7 @@
 .testimonial-section .client-faces span.shape-style-one img {
 	width: 150px; 
 }
-// .testimonial-section .client-faces span.cf1 {
-// 	left: 342px;
-// 	top: 30%;
-// 	animation: halfBounce 7s infinite;
-// }
+
 .testimonial-section .client-faces span.cf1 {
 	position: absolute;
 	left: 33%;
@@ -362,6 +359,10 @@
 	left: 30%;
 	content: "";
 	bottom: 27%;
+}
+.testimonials-footer-content {
+  position: relative;
+  margin-left: 2px;
 }
 .testimonials-footer-content h4 {
 	font-size: 16px;
