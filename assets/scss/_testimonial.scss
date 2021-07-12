@@ -13,13 +13,18 @@
   .testimonials-quote {
     width: 60px;
     height: 60px;
-}
-  .testimonial-content h3 {
-    color: #1473e7;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 25px;
+    margin-top: 50px;
   }
+.testimonial-wrapper {
+	overflow: hidden;
+	/* margin: 30px 0px 0px; */
+}
+.testimonial-content h3 {
+	color: #1473e7;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
   .testimonial-content p {
     font-size: 16px;
     font-weight: 400;
@@ -308,15 +313,16 @@
 	position: absolute;
 	left: 33%;
 	content: "";
-	bottom: -1%;
+	bottom: 8%;
 	-webkit-animation: halfBounce 7s infinite;
 	animation: halfBounce 7s infinite;
 }
+
 .testimonial-section .client-faces span.cf2 {
 	position: absolute;
 	content: "";
 	left: 32%;
-	top: 15%;
+	top: 13%;
 	-webkit-animation: halfBounce 5s infinite;
 	animation: halfBounce 5s infinite;
 	-webkit-animation-delay: 0.5s;
@@ -335,7 +341,7 @@
 .testimonial-section .client-faces span.cf4 {
 	position: absolute;
 	content: "";
-	top: 54%;
+	top: 50%;
 	left: 21%;
 	-webkit-animation-delay: 0.2s;
 	animation-delay: 0.2s;
@@ -345,7 +351,7 @@
 .testimonial-section .client-faces span.cf5 {
 	position: absolute;
 	content: "";
-	bottom: 7%;
+	bottom: 17%;
 	left: 25%;
 	-webkit-animation-delay: 0.2s;
 	animation-delay: 0.2s;
@@ -358,7 +364,7 @@
 	content: "";
 	left: 30%;
 	content: "";
-	bottom: 27%;
+	bottom: 30%;
 }
 .testimonials-footer-content {
   position: relative;
