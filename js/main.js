@@ -51,7 +51,7 @@
 
     // service - active
 $('.testimonial-active').slick({
-  dots: true,
+  dots: false,
   arrows: true,
   infinite: true,
   speed: 300,
