@@ -896,11 +896,19 @@ label {
   width: 100%;
 }
 
+.slider-active .images-slider {
+  width: 480px !important;
+}
+
+.slider-wrapper {
+  margin-top: 30px;
+}
+
 .testimonial-section .client-faces span.shape-style-one img {
   width: 150px;
 }
 
-.testimonial-section .client-faces span.cf1 {
+.testimonial-section .client-faces .shape.cf1 {
   position: absolute;
   left: 33%;
   content: "";
@@ -909,7 +917,7 @@ label {
   animation: halfBounce 7s infinite;
 }
 
-.testimonial-section .client-faces span.cf2 {
+.testimonial-section .client-faces .shape.cf2 {
   position: absolute;
   content: "";
   left: 32%;
@@ -920,7 +928,7 @@ label {
   animation-delay: 0.5s;
 }
 
-.testimonial-section .client-faces span.cf3 {
+.testimonial-section .client-faces .shape.cf3 {
   position: absolute;
   content: "";
   left: 24%;
@@ -931,7 +939,7 @@ label {
   animation-delay: 0.4s;
 }
 
-.testimonial-section .client-faces span.cf4 {
+.testimonial-section .client-faces .shape.cf4 {
   position: absolute;
   content: "";
   top: 50%;
@@ -942,7 +950,7 @@ label {
   animation: halfBounce 6s infinite;
 }
 
-.testimonial-section .client-faces span.cf5 {
+.testimonial-section .client-faces .shape.cf5 {
   position: absolute;
   content: "";
   bottom: 17%;
@@ -953,7 +961,7 @@ label {
   animation: halfBounce 6s infinite;
 }
 
-.testimonial-section .client-faces span.cf6 {
+.testimonial-section .client-faces .shape.cf6 {
   position: absolute;
   content: "";
   left: 30%;
@@ -1011,7 +1019,7 @@ label {
   border-radius: 50%;
   /* -webkit-animation: rot 2s linear infinite; */
   /* animation: rot 2s linear infinite; */
-  left: 70%;
+  left: 50%;
   top: 6%;
 }
 
