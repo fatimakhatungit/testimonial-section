@@ -496,7 +496,7 @@
 }
 #slick-slide-control01 {
 	position: absolute;
-	left: -6rem;
+	left: 1rem;
 	background: #080202;
 	padding: 5px;
 	height: 70px;
@@ -508,7 +508,7 @@
 	animation: halfBounce 5s infinite;
 	-webkit-animation-delay: 0.5s;
 	animation-delay: 0.5s;
-	top: -13rem;
+	top: -15rem;
 }
 #slick-slide-control02{
   position: absolute;
@@ -543,20 +543,37 @@
   top: -5rem;
 }
 #slick-slide-control04 {
-  position: absolute;
-  left: 1rem;
-  background: #080202;
-  padding: 5px;
-  height: 70px;
-  width: 70px;
-  border: 0;
-  border-radius: 50%;
-  opacity: 0;
-  -webkit-animation: halfBounce 5s infinite;
-  animation: halfBounce 5s infinite;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  top: 7rem;
+	position: absolute;
+	left: -6rem;
+	background: #080202;
+	padding: 5px;
+	height: 70px;
+	width: 70px;
+	border: 0;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-animation: halfBounce 5s infinite;
+	animation: halfBounce 5s infinite;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	top: 4rem;
+}
+
+#slick-slide-control05 {
+	position: absolute;
+	left: 2rem;
+	background: #080202;
+	padding: 5px;
+	height: 70px;
+	width: 70px;
+	border: 0;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-animation: halfBounce 5s infinite;
+	animation: halfBounce 5s infinite;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	top: -15rem;
 }
 .slider-for .slick-dots li button {
 	position: absolute;
