@@ -361,13 +361,6 @@
 	animation: halfBounce 6s infinite;
 }
 
-.testimonial-section .client-faces .shape.cf6 {
-	position: absolute;
-	content: "";
-	left: 30%;
-	content: "";
-	bottom: 30%;
-}
 .testimonials-footer-content {
   position: relative;
   margin-left: 2px;
@@ -461,5 +454,21 @@
   background: transparent;
   color: #00aaff;
 }
-
+.slider-for {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	margin: 30% 0px 0px 30%;
+}
+img{
+	width: 100%;
+	min-height: 100%;
+}
+.slider-nav{
+	width: 423px;
+	margin: auto;
+	padding: 15px 0px 0px 0px;
+	display: block;
+}
 
