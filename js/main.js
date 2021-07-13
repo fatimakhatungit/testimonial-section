@@ -116,14 +116,40 @@ $('.slider-for').slick({
 	autoplay: true
 });
 $('.slider-nav').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
   asNavFor: '.slider-for',
   dots: false,
   centerMode: true,
   focusOnSelect: true,
 	infinite: true,
-	centerPadding: '0px'
+	centerPadding: '0px',
+  prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
 });
 		
 
