@@ -110,6 +110,7 @@
 $('.slider-for').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
+  dots:true,
   arrows: false,
   fade: true,
   asNavFor: '.slider-nav',
@@ -117,7 +118,7 @@ $('.slider-for').slick({
 });
 $('.slider-nav').slick({
   asNavFor: '.slider-for',
-  dots:true,
+  dots:false,
   centerMode: true,
   focusOnSelect: true,
 	infinite: true,
