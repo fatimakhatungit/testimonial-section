@@ -6,7 +6,11 @@
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 	
-
+	.border-images {
+		top: 28%;
+		width: 90%;
+		left: 4%;
+	}
 
 
 }
@@ -15,11 +19,28 @@
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 992px) {
 	
-	.slider-wrapper {
+	/* .slider-wrapper {
 		margin-top: 30px;
 		margin-bottom: 150px;
+	} */
+	.container, .container-md, .container-sm {
+		max-width: 900px;
 	}
+	.rot {
+		left: 10%;
+	}
+	.border-images {
+		width: 80%;
+		left: 8%;
+	}
+	.icon-content h3 {
+		font-size: 18px;
 
+}
+.slider-nav .slick-prev {
+
+	right: 6%;
+}
 }
 
 
@@ -28,16 +49,21 @@
 
 	.slider-wrapper {
 		margin-top: 30px;
-		margin-bottom: 150px;
+		margin-bottom: 180px;
 	}
+	.icon-content {
+		margin-left: 170px;
+	}
+	.border-images {
+		display: none;
+	}
+	
 
 }
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-	.slider-wrapper {
-		margin-top: 30px;
-		margin-bottom: 150px;
-	}
+
+
 
 }
