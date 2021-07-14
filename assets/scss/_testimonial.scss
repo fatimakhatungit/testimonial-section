@@ -629,14 +629,27 @@
 	left: 45px;
 	color: #fff;
 }
+// .border-images {
+// 	position: absolute;
+// 	top: 28%;
+// 	width: 70%;
+// 	text-align: center;
+// 	left: 10%;
+// }
 .border-images {
 	position: absolute;
-	top: 28%;
-	width: 70%;
+	width: 100%;
 	text-align: center;
-	left: 10%;
+	left: -30px;
+	bottom: 63px;
 }
 .border-images img {
 	width: 75%;
 	margin-top: 10px;
+}
+.row.icon-row {
+	position: relative;
+}
+.icon-row .col-item:nth-child(2n) {
+  margin-top: 50px;
 }
